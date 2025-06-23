@@ -19,28 +19,43 @@ export default function ArtistListing() {
   });
 
   return (
-    <section className="p-4">
-      <h1 className="text-2xl font-bold mb-4">Our Artists</h1>
+    <section className="p-8 min-h-screen bg-gradient-to-br from-blue-100 to-purple-100">
+      <div className="max-w-7xl mx-auto space-y-8">
+        {/* Page Title */}
+        <h1 className="text-4xl font-bold text-center text-gray-800">Our Artists</h1>
 
-      {/* FilterBlock */}
-      <FilterBlock
-        categories={categories}
-        selectedCategory={selectedCategory}
-        setSelectedCategory={setSelectedCategory}
-        location={location}
-        setLocation={setLocation}
-      />
+        {/* Filter Section */}
+        <div className="max-w-xl mx-auto ">
+          <FilterBlock
+            categories={categories}
+            selectedCategory={selectedCategory}
+            setSelectedCategory={setSelectedCategory}
+            location={location}
+            setLocation={setLocation}
+          />
+        </div>
 
-      {/* Artist Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {filteredArtists.map((artist) => (
-          <div key={artist.id} className="border m-2 p-4">
-            <h2 className="text-lg font-semibold">{artist.name}</h2>
-            <p>Category: {artist.category}</p>
-            <p>Location: {artist.location}</p>
-            <p>Price Range: {artist.priceRange}</p>
-          </div>
-        ))}
+        {/* Artist Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {filteredArtists.map((artist) => (
+            <div
+              key={artist.id}
+              className="border rounded p-6 shadow bg-amber-300 hover:shadow-lg transition flex flex-col justify-between"
+            >
+              <h2 className="text-xl font-semibold mb-4 text-purple-700">{artist.name}</h2>
+              <div className="space-y-1 text-gray-700">
+                <p><span className="font-medium">Category:</span> {artist.category}</p>
+                <p><span className="font-medium">Location:</span> {artist.location}</p>
+                <p><span className="font-medium">Price Range:</span> {artist.priceRange}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* No Results Message */}
+        {filteredArtists.length === 0 && (
+          <p className="text-center text-gray-600 mt-8">No artists found matching your criteria.</p>
+        )}
       </div>
     </section>
   );
