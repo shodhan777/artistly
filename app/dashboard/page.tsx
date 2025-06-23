@@ -15,7 +15,7 @@ export default function Dashboard() {
       <div className="w-full max-w-screen-xl mx-auto">
         <h1 className="text-3xl font-bold mb-6 text-center text-gray-800">Manager Dashboard</h1>
 
-        {/* Search Bar with Label */}
+        {/* Search Bar */}
         <div className="flex flex-col items-center mb-6">
           <label className="mb-2 font-medium text-gray-700">Search by Artist Name:</label>
           <input
@@ -26,8 +26,6 @@ export default function Dashboard() {
             className="border bg-blue-100 px-4 py-2 w-full sm:w-1/2 md:w-1/3 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
           />
         </div>
-
-        {/* Centered Table */}
         <div className="flex justify-center">
           <div className="w-full sm:w-11/12 md:w-10/12 lg:w-8/12">
             <Table data={filteredArtists} />

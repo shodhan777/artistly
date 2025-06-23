@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { ReactNode } from "react";
 
 export const metadata = {
@@ -12,7 +13,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body>
         <Header />
-        <main className="min-h-screen p-4">{children}</main>
+        <main className="min-h-screen ">{children}</main>
+        <Footer />
       </body>
     </html>
   );

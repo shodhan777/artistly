@@ -17,7 +17,7 @@ export default function FilterBlock({
     <div className="bg-white p-4 mb-6 rounded shadow">
       <h2 className="text-lg font-semibold mb-4">Filter Artists</h2>
 
-      {/* Category Filter */}
+      {/* Category */}
       <div className="mb-4">
         <label className="block mb-1 font-medium">Category:</label>
         <select
@@ -34,7 +34,7 @@ export default function FilterBlock({
         </select>
       </div>
 
-      {/* Location Filter */}
+      {/* Location */}
       <div>
         <label className="block mb-1 font-medium">Location:</label>
         <input

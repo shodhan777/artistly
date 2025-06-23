@@ -24,10 +24,10 @@ export default function Home() {
         Explore Artists
       </Link>
 
-      {/* Space below button */}
+
       <div className="h-8"></div>
 
-      {/* About Section */}
+     
       <div className="max-w-max mx-auto bg-white p-6 rounded shadow mb-10">
         <h2 className="text-2xl font-bold mb-2">Why Choose Artistly?</h2>
         <p className="text-gray-700">
@@ -38,7 +38,7 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Category Overview */}
+      
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
         {categories.map((category, index) => (
           <div

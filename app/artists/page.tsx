@@ -21,7 +21,9 @@ export default function ArtistListing() {
   return (
     <section className="p-8 min-h-screen bg-gradient-to-br from-blue-100 to-purple-100">
       <div className="max-w-7xl mx-auto space-y-8">
+
         {/* Page Title */}
+
         <h1 className="text-4xl font-bold text-center text-gray-800">Our Artists</h1>
 
         {/* Filter Section */}
@@ -35,7 +37,7 @@ export default function ArtistListing() {
           />
         </div>
 
-        {/* Artist Grid */}
+        {/* Artists */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredArtists.map((artist) => (
             <div
@@ -52,7 +54,8 @@ export default function ArtistListing() {
           ))}
         </div>
 
-        {/* No Results Message */}
+
+        {/* No Result */}
         {filteredArtists.length === 0 && (
           <p className="text-center text-gray-600 mt-8">No artists found matching your criteria.</p>
         )}
