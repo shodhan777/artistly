@@ -6,13 +6,13 @@ export default function Home() {
     <section className="text-center p-6 min-h-screen bg-gradient-to-br from-purple-100 to-pink-100">
       
       {/* Title/Introduction */}
-      <h1 className="text-3xl font-bold mb-2">Welcome to Artistly</h1>
+      <h1 className="text-10xl font-bold mb-2">Welcome to Artistly</h1>
       <p className="text-gray-700 mb-4">Find and book talented artists for your events.</p>
       <Link
         href="/artists"
         className="inline-block bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700 transition"
       >
-        Explore Artists
+        Click here  to Explore Artists
       </Link>
       <div className="h-8"></div>
       <div className="max-w-max mx-auto bg-white p-6 rounded shadow mb-10">
