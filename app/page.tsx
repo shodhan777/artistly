@@ -1,5 +1,13 @@
+import Image from "next/image";
 import Link from "next/link";
 import categories from "../data/categories.json";
+
+const categoryImages: Record<string, string> = {
+  Singer: "/category-icons/singer.png",
+  Dancer: "/category-icons/dancer.png",
+  DJ: "/category-icons/dj.png",
+  Speaker: "/category-icons/speaker.png",
+};
 
 export default function Home() {
   return (
