@@ -6,8 +6,8 @@ Artistly is a simple platform to explore, onboard, and manage performing artists
 
 ## ✅ Tech Stack
 
-- [Next.js](https://nextjs.org/) — App Router based React Framework
-- [Tailwind CSS](https://tailwindcss.com/) — Utility-first CSS styling
+- Next.js
+- Tailwind CSS
 - Static data via local JSON files
 
 ---
