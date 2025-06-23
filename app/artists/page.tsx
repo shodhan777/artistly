@@ -26,7 +26,7 @@ export default function ArtistListing() {
 
         <h1 className="text-4xl font-bold text-center text-gray-800">Our Artists</h1>
 
-        {/* Filter Section */}
+        {/* Filter */}
         <div className="max-w-xl mx-auto ">
           <FilterBlock
             categories={categories}
