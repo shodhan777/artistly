@@ -21,7 +21,7 @@ export default function FilterBlock({
       <div className="mb-4">
         <label className="block mb-1 font-medium">Category:</label>
         <select
-          value={selectedCategory}
+          value={selectedCategory || undefined}
           onChange={(e) => setSelectedCategory(e.target.value)}
           className="border px-3 py-2 w-full rounded focus:outline-none focus:ring-2 focus:ring-blue-300"
         >
@@ -39,7 +39,7 @@ export default function FilterBlock({
         <label className="block mb-1 font-medium">Location:</label>
         <input
           type="text"
-          value={location}
+          value={location || ""}
           onChange={(e) => setLocation(e.target.value)}
           placeholder="Enter location"
           className="border px-3 py-2 w-full rounded focus:outline-none focus:ring-2 focus:ring-blue-300"
