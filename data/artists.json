@@ -1,299 +1,153 @@
-
-  [
+[
   {
-    "id": 1,
-    "name": "Aarav Mehra",
+    "name": "Aarav Sharma",
     "category": "Singer",
-    "priceRange": "₹10,000 - ₹25,000",
-    "location": "Mumbai"
+    "location": "Mumbai",
+    "priceRange": "₹10,000 - ₹25,000"
   },
   {
-    "id": 2,
-    "name": "Priya Sharma",
-    "category": "Dancer",
-    "priceRange": "₹8,000 - ₹20,000",
-    "location": "Bangalore"
+    "name": "Priya Patel",
+    "category": "Singer",
+    "location": "Delhi",
+    "priceRange": "₹15,000 - ₹30,000"
   },
   {
-    "id": 3,
-    "name": "Rahul Verma",
-    "category": "Stand-up Comedian",
-    "priceRange": "₹15,000 - ₹30,000",
-    "location": "Delhi"
-  },
-  {
-    "id": 4,
-    "name": "Neha Singh",
-    "category": "Speaker",
-    "priceRange": "₹5,000 - ₹12,000",
-    "location": "Hyderabad"
-  },
-  {
-    "id": 5,
-    "name": "Kunal Desai",
-    "category": "DJ",
-    "priceRange": "₹12,000 - ₹25,000",
-    "location": "Pune"
-  },
-  {
-    "id": 6,
-    "name": "Sanya Kapoor",
-    "category": "Classical Dancer",
-    "priceRange": "₹20,000 - ₹40,000",
-    "location": "Chennai"
-  },
-  {
-    "id": 7,
-    "name": "Raj Malhotra",
-    "category": "Magician",
-    "priceRange": "₹7,000 - ₹15,000",
-    "location": "Ahmedabad"
-  },
-  {
-    "id": 8,
-    "name": "Meera Joshi",
-    "category": "Folk Performer",
-    "priceRange": "₹10,000 - ₹18,000",
-    "location": "Jaipur"
-  },
-  {
-    "id": 9,
-    "name": "Kabir Iyer",
-    "category": "Instrumentalist",
-    "priceRange": "₹12,000 - ₹22,000",
-    "location": "Kochi"
-  },
-  {
-    "id": 10,
-    "name": "Riya Mukherjee",
-    "category": "Classical Singer",
-    "priceRange": "₹15,000 - ₹30,000",
-    "location": "Kolkata"
-  },
-  {
-    "id": 11,
-    "name": "Dev Patel",
-    "category": "Anchor/Host",
-    "priceRange": "₹8,000 - ₹20,000",
-    "location": "Lucknow"
-  },
-  {
-    "id": 12,
-    "name": "Pooja Reddy",
-    "category": "Theatre Artist",
-    "priceRange": "₹10,000 - ₹25,000",
-    "location": "Vijayawada"
+    "name": "Rahul Kapoor",
+    "category": "Singer",
+    "location": "Bangalore",
+    "priceRange": "₹12,000 - ₹28,000"
   },
 
   {
-    "id": 13,
-    "name": "Ishaan Bhatt",
-    "category": "Poet",
-    "priceRange": "₹5,000 - ₹12,000",
-    "location": "Surat"
-  },
-  {
-    "id": 14,
-    "name": "Aditi Nair",
-    "category": "Storyteller",
-    "priceRange": "₹7,000 - ₹15,000",
-    "location": "Thiruvananthapuram"
-  },
-  {
-    "id": 15,
-    "name": "Manish Gupta",
-    "category": "Illusionist",
-    "priceRange": "₹15,000 - ₹35,000",
-    "location": "Chandigarh"
-  },
-  {
-    "id": 16,
-    "name": "Shruti Menon",
-    "category": "Folk Performer",
-    "priceRange": "₹8,000 - ₹18,000",
-    "location": "Kochi"
-  },
-  {
-    "id": 17,
-    "name": "Vikram Joshi",
-    "category": "Musician",
-    "priceRange": "₹12,000 - ₹28,000",
-    "location": "Nagpur"
-  },
-  {
-    "id": 18,
-    "name": "Tanvi Sinha",
-    "category": "Mime Artist",
-    "priceRange": "₹6,000 - ₹15,000",
-    "location": "Indore"
-  },
-  {
-    "id": 19,
-    "name": "Siddharth Rao",
-    "category": "Beatboxer",
-    "priceRange": "₹10,000 - ₹20,000",
-    "location": "Goa"
-  },
-  {
-    "id": 20,
-    "name": "Poonam Kulkarni",
-    "category": "Classical Singer",
-    "priceRange": "₹18,000 - ₹35,000",
-    "location": "Pune"
-  },
-  {
-    "id": 21,
-    "name": "Anuj Mishra",
-    "category": "Stand-up Comedian",
-    "priceRange": "₹20,000 - ₹40,000",
-    "location": "Delhi"
-  },
-  {
-    "id": 22,
-    "name": "Sneha Iyer",
-    "category": "Magician",
-    "priceRange": "₹9,000 - ₹18,000",
-    "location": "Chennai"
-  },
-  {
-    "id": 23,
-    "name": "Armaan Singh",
-    "category": "DJ",
-    "priceRange": "₹15,000 - ₹30,000",
-    "location": "Mumbai"
-  },
-  {
-    "id": 24,
-    "name": "Nidhi Verma",
-    "category": "Anchor/Host",
-    "priceRange": "₹7,000 - ₹15,000",
-    "location": "Jaipur"
-  },
-  {
-    "id": 25,
-    "name": "Aditya Das",
-    "category": "Theatre Artist",
-    "priceRange": "₹12,000 - ₹25,000",
-    "location": "Bhubaneswar"
-  },
-  {
-    "id": 26,
-    "name": "Deepa Pillai",
-    "category": "Classical Dancer",
-    "priceRange": "₹20,000 - ₹50,000",
-    "location": "Kochi"
-  },
-  {
-    "id": 27,
-    "name": "Nikhil Kapoor",
-    "category": "Musician",
-    "priceRange": "₹10,000 - ₹25,000",
-    "location": "Bangalore"
-  },
-  {
-    "id": 28,
-    "name": "Swati Jain",
-    "category": "Storyteller",
-    "priceRange": "₹6,000 - ₹15,000",
-    "location": "Delhi"
-  },
-  {
-    "id": 29,
-    "name": "Mohit Saxena",
-    "category": "Poet",
-    "priceRange": "₹5,000 - ₹12,000",
-    "location": "Lucknow"
-  },
-  {
-    "id": 30,
-    "name": "Kriti Patel",
+    "name": "Isha Reddy",
     "category": "Dancer",
-    "priceRange": "₹10,000 - ₹22,000",
-    "location": "Ahmedabad"
+    "location": "Hyderabad",
+    "priceRange": "₹8,000 - ₹20,000"
   },
   {
-    "id": 31,
-    "name": "Harshita Bhatia",
-    "category": "Stand-up Comedian",
-    "priceRange": "₹18,000 - ₹35,000",
-    "location": "Delhi"
+    "name": "Kunal Mehta",
+    "category": "Dancer",
+    "location": "Pune",
+    "priceRange": "₹9,000 - ₹22,000"
   },
   {
-    "id": 32,
-    "name": "Raghav Reddy",
-    "category": "Instrumentalist",
-    "priceRange": "₹12,000 - ₹28,000",
-    "location": "Hyderabad"
+    "name": "Sneha Singh",
+    "category": "Dancer",
+    "location": "Chennai",
+    "priceRange": "₹11,000 - ₹25,000"
   },
+
   {
-    "id": 33,
-    "name": "Sonal Deshpande",
-    "category": "Folk Performer",
-    "priceRange": "₹10,000 - ₹20,000",
-    "location": "Nagpur"
-  },
-  {
-    "id": 34,
-    "name": "Ayaan Singh",
-    "category": "DJ",
-    "priceRange": "₹15,000 - ₹30,000",
-    "location": "Pune"
-  },
-  {
-    "id": 35,
-    "name": "Bhavana Menon",
-    "category": "Magician",
-    "priceRange": "₹8,000 - ₹18,000",
-    "location": "Kochi"
-  },
-  {
-    "id": 36,
-    "name": "Devika Khanna",
+    "name": "Dr. Varun Khanna",
     "category": "Speaker",
-    "priceRange": "₹5,000 - ₹10,000",
-    "location": "Chandigarh"
+    "location": "Mumbai",
+    "priceRange": "₹20,000 - ₹50,000"
   },
   {
-    "id": 37,
-    "name": "Karan Das",
-    "category": "Illusionist",
-    "priceRange": "₹20,000 - ₹40,000",
-    "location": "Ahmedabad"
+    "name": "Nisha Verma",
+    "category": "Speaker",
+    "location": "Delhi",
+    "priceRange": "₹18,000 - ₹45,000"
   },
   {
-    "id": 38,
-    "name": "Meghna Roy",
-    "category": "Classical Singer",
-    "priceRange": "₹15,000 - ₹35,000",
-    "location": "Kolkata"
+    "name": "Rakesh Shetty",
+    "category": "Speaker",
+    "location": "Bangalore",
+    "priceRange": "₹22,000 - ₹55,000"
+  },
+
+  {
+    "name": "DJ Aryan",
+    "category": "DJ",
+    "location": "Mumbai",
+    "priceRange": "₹15,000 - ₹35,000"
   },
   {
-    "id": 39,
-    "name": "Yash Malhotra",
+    "name": "DJ Meera",
+    "category": "DJ",
+    "location": "Delhi",
+    "priceRange": "₹18,000 - ₹40,000"
+  },
+  {
+    "name": "DJ Rocky",
+    "category": "DJ",
+    "location": "Goa",
+    "priceRange": "₹20,000 - ₹50,000"
+  },
+
+  {
+    "name": "Kabir D",
+    "category": "Magician",
+    "location": "Kolkata",
+    "priceRange": "₹12,000 - ₹30,000"
+  },
+  {
+    "name": "M Maya",
+    "category": "Magician",
+    "location": "Ahmedabad",
+    "priceRange": "₹14,000 - ₹32,000"
+  },
+  {
+    "name": "Raj T",
+    "category": "Magician",
+    "location": "Jaipur",
+    "priceRange": "₹15,000 - ₹35,000"
+  },
+
+  {
+    "name": "Amit Saxena",
+    "category": "Stand-up Comedian",
+    "location": "Mumbai",
+    "priceRange": "₹20,000 - ₹45,000"
+  },
+  {
+    "name": "Neha Bhatia",
+    "category": "Stand-up Comedian",
+    "location": "Delhi",
+    "priceRange": "₹18,000 - ₹40,000"
+  },
+  {
+    "name": "Pranav Iyer",
+    "category": "Stand-up Comedian",
+    "location": "Bangalore",
+    "priceRange": "₹22,000 - ₹50,000"
+  },
+
+  {
+    "name": "A Ritu",
     "category": "Anchor/Host",
-    "priceRange": "₹8,000 - ₹20,000",
-    "location": "Delhi"
+    "location": "Kolkata",
+    "priceRange": "₹10,000 - ₹25,000"
   },
   {
-    "id": 40,
-    "name": "Pallavi Singh",
-    "category": "Dancer",
-    "priceRange": "₹12,000 - ₹25,000",
-    "location": "Mumbai"
+    "name": " Aditya",
+    "category": "Anchor/Host",
+    "location": "Delhi",
+    "priceRange": "₹12,000 - ₹28,000"
   },
   {
-    "id": 41,
-    "name": "Ankit Jain",
+    "name": "Pooja",
+    "category": "Anchor/Host",
+    "location": "Hyderabad",
+    "priceRange": "₹15,000 - ₹30,000"
+  },
+
+  {
+    "name": " Vikram",
     "category": "Theatre Artist",
-    "priceRange": "₹10,000 - ₹22,000",
-    "location": "Bhopal"
+    "location": "Mumbai",
+    "priceRange": "₹18,000 - ₹40,000"
   },
   {
-    "id": 42,
-    "name": "Ritika Chopra",
-    "category": "Folk Performer",
-    "priceRange": "₹9,000 - ₹18,000",
-    "location": "Jaipur"
+    "name": "Ananya",
+    "category": "Theatre Artist",
+    "location": "Chennai",
+    "priceRange": "₹20,000 - ₹42,000"
+  },
+  {
+    "name": "Mohan",
+    "category": "Theatre Artist",
+    "location": "Delhi",
+    "priceRange": "₹22,000 - ₹45,000"
   }
-
-  ]
+]
