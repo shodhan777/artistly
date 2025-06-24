@@ -26,8 +26,10 @@ export default function Dashboard() {
             className="border bg-blue-100 px-4 py-2 w-full sm:w-1/2 md:w-1/3 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
           />
         </div>
+
+        {/*Filtered artists */}
         <div className="flex justify-center">
-          <div className="w-full sm:w-11/12 md:w-10/12 lg:w-8/12">
+          <div className="w-full sm:w-11/12 md:w-10/12 lg:w-8/12 ">
             <Table data={filteredArtists} />
           </div>
         </div>

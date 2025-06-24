@@ -9,7 +9,7 @@ interface Artist {
 interface TableProps {
   data: Artist[];
 }
-
+//For dasboard view
 export default function Table({ data }: TableProps) {
   return (
     <div className="overflow-x-auto shadow rounded bg-white">

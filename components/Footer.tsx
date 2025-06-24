@@ -6,8 +6,8 @@ export default function Footer() {
         <p className="text-sm">&copy; {new Date().getFullYear()} Artistly. All rights reserved.</p>
        
         <div className="space-x-4 mt-2 sm:mt-0">
-          <a href="#" className="hover:text-gray-400 transition">Privacy Policy</a>
-          <a href="#" className="hover:text-gray-400 transition">Terms</a>
+          <a href="#" className="hover:text-gray-400 transition">Privacy Policy</a>  |     |
+          <a href="#" className="hover:text-gray-400 transition">Terms and Condition </a>  |     |
           <a href="#" className="hover:text-gray-400 transition">Contact</a>
         </div>
       </div>

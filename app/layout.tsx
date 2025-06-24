@@ -7,7 +7,7 @@ export const metadata = {
   title: "Artistly",
   description: "Performing Artist Booking Platform",
 };
-
+//layout
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">

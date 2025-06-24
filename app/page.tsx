@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <section className="text-center p-6 min-h-screen bg-gradient-to-br from-purple-100 to-pink-100">
       
-      {/* Title/Introduction */}
+      {/* Hero Section */}
       <h1 className="text-10xl font-bold mb-2">Welcome to Artistly</h1>
       <p className="text-gray-700 mb-4">Find and book talented artists for your events.</p>
       <Link
